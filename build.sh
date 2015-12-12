@@ -7,6 +7,6 @@ mkdir -p STL
 for i in *.scad
 do
 	echo -n "Building $i..."
-	openscad -o STL/$i.stl $i 2> /dev/null
+	openscad -o STL/$(basename $i .scad).stl $i 2> /dev/null
 	echo "Done"
 done
