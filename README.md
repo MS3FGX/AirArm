@@ -1,4 +1,6 @@
-![Featured Image](https://raw.githubusercontent.com/MS3FGX/AirArm/master/installed.jpg "Arm installed on Ryobi saw.")
+<p align="center">
+<img src="https://raw.githubusercontent.com/MS3FGX/AirArm/master/installed.jpg" />
+</p>
 
 AirArm
 =========
@@ -21,7 +23,7 @@ Credits
 This project makes use of the ball and socket joint (BS_Joint.stl) from the ["PCB Workstation with Articulated Arms"](http://www.thingiverse.com/thing:801279)
 by Giuseppe Finizia.
 
-LICENSE
+License
 =========
 This project inherits the [Creative Commons Attribution-NonCommercial 3.0 Unported License](http://creativecommons.org/licenses/by-nc/3.0/) from "PCB Workstation
 with Articulated Arms".
