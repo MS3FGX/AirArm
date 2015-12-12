@@ -19,6 +19,12 @@ hh_long = 7;
 hh_offset = 2;
 hh_angle = 0;;
 
+module remove_ball()
+{
+    translate([0, 0, 2.6])
+        cube([15, 15, 10], center=true);
+}
+
 module body()
 {
     difference()
@@ -61,4 +67,12 @@ holder();
 
 // Add socket to top
 translate([0, 0, -(body_long / 2)])
-    import("STL/socket.stl");
+    difference()
+    {
+    translate([0, 2, 3])
+        import("STL/BS_Joint.stl");
+        
+        remove_ball();
+    }
+    
+// EOF
