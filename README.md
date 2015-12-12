@@ -1,4 +1,4 @@
-![Featured Image](https://raw.github.com/MS3FGX/installed.jpg "Arm installed on Ryobi saw.")
+![Featured Image](https://raw.githubusercontent.com/MS3FGX/AirArm/master/installed.jpg "Arm installed on Ryobi saw.")
 
 AirArm
 =========
